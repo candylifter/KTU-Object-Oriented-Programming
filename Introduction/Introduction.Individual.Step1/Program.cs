@@ -24,26 +24,61 @@ namespace Introduction.Individual.Step1
             Console.WriteLine("Iveskite vienos eilutes simboliu kieki");
             lineSymbolCount = int.Parse(Console.ReadLine());
 
-            for (int i = 1; i <= ((symbolCount / lineSymbolCount) + symbolCount % lineSymbolCount ); i++)
-            {
-                //if (i % lineSymbolCount == 0)
-                //{
-                //    Console.WriteLine(character);
-                //}
-                //else
-                //{
-                //    Console.Write(character);
-                //}
 
-                for (int j = 1; j <= (lineSymbolCount); j++) 
+            firstSolution(symbolCount, character, lineSymbolCount);
+            //secondSolution(symbolCount, character, lineSymbolCount);
+            //thirdSolution(symbolCount, character, lineSymbolCount);
+
+
+            Console.WriteLine("");
+            Console.ReadKey();
+        }
+
+        public static void firstSolution(int symbolCount, char character, int lineSymbolCount)
+        {
+            for (int i = 1; i <= symbolCount; i++)
+            {
+                Console.Write(character);
+
+                for (int j = 1; i % lineSymbolCount == 0 && j <= lineSymbolCount; j++)
+                {
+                    Console.WriteLine();
+                    break;
+                }
+            }
+        }
+
+        public static void secondSolution(int symbolCount, char character, int lineSymbolCount)
+        {
+            for (int i = 1; i <= symbolCount / lineSymbolCount; i++)
+            {
+                for (int j = 1; j <= lineSymbolCount; j++)
                 {
                     Console.Write(character);
                 }
 
                 Console.WriteLine();
             }
-            Console.WriteLine("");
-            Console.ReadKey();
+
+            for (int i = 1; i <= symbolCount % lineSymbolCount; i++)
+            {
+                Console.Write(character);
+            }
         }
+
+        public static void thirdSolution(int symbolCount, char character, int lineSymbolCount)
+        {
+            for (int i = 1; i <= symbolCount; i++)
+            {
+                Console.Write(character);
+
+                for (; i % lineSymbolCount == 0;)
+                {
+                    Console.WriteLine();
+                    break;
+                }
+            }
+        }
+
     }
 }
