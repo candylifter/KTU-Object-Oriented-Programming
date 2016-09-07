@@ -1,0 +1,6 @@
+Z:\Objektinis Programavimas\First_lesson\Introduction\Introduction.Loop.Step1\bin\Debug\Introduction.Loop.Step1.exe.config
+Z:\Objektinis Programavimas\First_lesson\Introduction\Introduction.Loop.Step1\bin\Debug\Introduction.Loop.Step1.exe
+Z:\Objektinis Programavimas\First_lesson\Introduction\Introduction.Loop.Step1\bin\Debug\Introduction.Loop.Step1.pdb
+Z:\Objektinis Programavimas\First_lesson\Introduction\Introduction.Loop.Step1\obj\Debug\Introduction.Loop.Step1.csprojResolveAssemblyReference.cache
+Z:\Objektinis Programavimas\First_lesson\Introduction\Introduction.Loop.Step1\obj\Debug\Introduction.Loop.Step1.exe
+Z:\Objektinis Programavimas\First_lesson\Introduction\Introduction.Loop.Step1\obj\Debug\Introduction.Loop.Step1.pdb
