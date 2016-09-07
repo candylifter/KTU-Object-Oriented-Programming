@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduction.Loop.Step1", "Introduction.Loop.Step1\Introduction.Loop.Step1.csproj", "{7CBA4924-D881-42C6-B09F-A28E542E004C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduction.Loop.Step2", "Introduction.Loop.Step2\Introduction.Loop.Step2.csproj", "{8A32388F-4D00-458A-B2D4-3C960D628F48}"
@@ -18,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduction.SimpleMath", "Introduction.SimpleMath\Introduction.SimpleMath.csproj", "{70C12819-7FEB-4DE4-BEA8-5C1D55A0D6F4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduction.Individual.Step1", "Introduction.Individual.Step1\Introduction.Individual.Step1.csproj", "{6E54EF0E-8A1C-42D5-9F44-F0BED4389F4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Introduction.MoreMath", "Introduction.MoreMath\Introduction.MoreMath.csproj", "{1A07D92A-6F58-48B0-B1BE-756D116F267B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +65,10 @@ Global
 		{6E54EF0E-8A1C-42D5-9F44-F0BED4389F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E54EF0E-8A1C-42D5-9F44-F0BED4389F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E54EF0E-8A1C-42D5-9F44-F0BED4389F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A07D92A-6F58-48B0-B1BE-756D116F267B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A07D92A-6F58-48B0-B1BE-756D116F267B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A07D92A-6F58-48B0-B1BE-756D116F267B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A07D92A-6F58-48B0-B1BE-756D116F267B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
