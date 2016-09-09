@@ -1,0 +1,5 @@
+C:\dev\KTU\Introduction\Introduction.CharsAndStrings.Step2\bin\Debug\Introduction.CharsAndStrings.Step2.exe.config
+C:\dev\KTU\Introduction\Introduction.CharsAndStrings.Step2\bin\Debug\Introduction.CharsAndStrings.Step2.exe
+C:\dev\KTU\Introduction\Introduction.CharsAndStrings.Step2\bin\Debug\Introduction.CharsAndStrings.Step2.pdb
+C:\dev\KTU\Introduction\Introduction.CharsAndStrings.Step2\obj\Debug\Introduction.CharsAndStrings.Step2.exe
+C:\dev\KTU\Introduction\Introduction.CharsAndStrings.Step2\obj\Debug\Introduction.CharsAndStrings.Step2.pdb
