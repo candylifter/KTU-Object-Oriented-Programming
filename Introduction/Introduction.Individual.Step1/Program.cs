@@ -34,7 +34,7 @@ namespace Introduction.Individual.Step1
             Console.ReadKey();
         }
 
-        public static void firstSolution(int symbolCount, char character, int lineSymbolCount)
+        static void firstSolution(int symbolCount, char character, int lineSymbolCount)
         {
             for (int i = 1; i <= symbolCount; i++)
             {
@@ -48,7 +48,7 @@ namespace Introduction.Individual.Step1
             }
         }
 
-        public static void secondSolution(int symbolCount, char character, int lineSymbolCount)
+        static void secondSolution(int symbolCount, char character, int lineSymbolCount)
         {
             for (int i = 1; i <= symbolCount / lineSymbolCount; i++)
             {
@@ -66,7 +66,7 @@ namespace Introduction.Individual.Step1
             }
         }
 
-        public static void thirdSolution(int symbolCount, char character, int lineSymbolCount)
+        static void thirdSolution(int symbolCount, char character, int lineSymbolCount)
         {
             for (int i = 1; i <= symbolCount; i++)
             {
