@@ -1,0 +1,5 @@
+C:\dev\KTU\Introduction\Introduction.Methods.Step1\bin\Debug\Introduction.Methods.Step1.exe.config
+C:\dev\KTU\Introduction\Introduction.Methods.Step1\bin\Debug\Introduction.Methods.Step1.exe
+C:\dev\KTU\Introduction\Introduction.Methods.Step1\bin\Debug\Introduction.Methods.Step1.pdb
+C:\dev\KTU\Introduction\Introduction.Methods.Step1\obj\Debug\Introduction.Methods.Step1.exe
+C:\dev\KTU\Introduction\Introduction.Methods.Step1\obj\Debug\Introduction.Methods.Step1.pdb

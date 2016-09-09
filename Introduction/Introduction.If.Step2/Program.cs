@@ -4,18 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Introduction.If.Step1
+namespace Introduction.If.Step2
 {
     class Program
     {
         static void Main(string[] args)
         {
+            char character;
+
+            Console.WriteLine("Įveskite spausdinamą simbolį");
+            character = (char)Console.Read();
+
             for (int i = 1; i < 51; i++)
             {
-                Console.Write('*');
+                Console.Write(character);
                 if (i % 5 == 0)
                 {
-                    Console.WriteLine("");
+                    Console.WriteLine(character);
                 }
             }
             Console.WriteLine("");

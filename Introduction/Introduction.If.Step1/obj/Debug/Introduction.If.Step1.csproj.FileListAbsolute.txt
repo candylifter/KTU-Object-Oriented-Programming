@@ -3,3 +3,8 @@ Z:\Objektinis Programavimas\First_lesson\Introduction\Introduction.If.Step1\bin\
 Z:\Objektinis Programavimas\First_lesson\Introduction\Introduction.If.Step1\bin\Debug\Introduction.If.Step1.pdb
 Z:\Objektinis Programavimas\First_lesson\Introduction\Introduction.If.Step1\obj\Debug\Introduction.If.Step1.exe
 Z:\Objektinis Programavimas\First_lesson\Introduction\Introduction.If.Step1\obj\Debug\Introduction.If.Step1.pdb
+C:\dev\KTU\Introduction\Introduction.If.Step1\bin\Debug\Introduction.If.Step1.exe.config
+C:\dev\KTU\Introduction\Introduction.If.Step1\obj\Debug\Introduction.If.Step1.exe
+C:\dev\KTU\Introduction\Introduction.If.Step1\obj\Debug\Introduction.If.Step1.pdb
+C:\dev\KTU\Introduction\Introduction.If.Step1\bin\Debug\Introduction.If.Step1.exe
+C:\dev\KTU\Introduction\Introduction.If.Step1\bin\Debug\Introduction.If.Step1.pdb
