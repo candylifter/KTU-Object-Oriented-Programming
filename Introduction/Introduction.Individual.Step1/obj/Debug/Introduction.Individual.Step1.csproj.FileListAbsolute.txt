@@ -9,3 +9,6 @@ C:\dev\KTU\Introduction\Introduction.Individual.Step1\obj\Debug\Introduction.Ind
 C:\dev\KTU\Introduction\Introduction.Individual.Step1\bin\Debug\Introduction.Individual.Step1.exe
 C:\dev\KTU\Introduction\Introduction.Individual.Step1\bin\Debug\Introduction.Individual.Step1.pdb
 C:\dev\KTU\Introduction\Introduction.Individual.Step1\obj\Debug\Introduction.Individual.Step1.csprojResolveAssemblyReference.cache
+Z:\Objektinis Programavimas\Introduction\Introduction.Individual.Step1\bin\Debug\Introduction.Individual.Step1.exe.config
+Z:\Objektinis Programavimas\Introduction\Introduction.Individual.Step1\obj\Debug\Introduction.Individual.Step1.exe
+Z:\Objektinis Programavimas\Introduction\Introduction.Individual.Step1\obj\Debug\Introduction.Individual.Step1.pdb

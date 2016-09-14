@@ -1,0 +1,5 @@
+Z:\Objektinis Programavimas\First_lesson\L1antra-2\L1antra-2\bin\Debug\L1antra-2.exe.config
+Z:\Objektinis Programavimas\First_lesson\L1antra-2\L1antra-2\bin\Debug\L1antra-2.exe
+Z:\Objektinis Programavimas\First_lesson\L1antra-2\L1antra-2\bin\Debug\L1antra-2.pdb
+Z:\Objektinis Programavimas\First_lesson\L1antra-2\L1antra-2\obj\Debug\L1antra-2.exe
+Z:\Objektinis Programavimas\First_lesson\L1antra-2\L1antra-2\obj\Debug\L1antra-2.pdb

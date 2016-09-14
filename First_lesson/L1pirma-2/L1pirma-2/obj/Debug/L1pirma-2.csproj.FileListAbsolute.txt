@@ -1,0 +1,5 @@
+Z:\Objektinis Programavimas\First_lesson\L1pirma-2\L1pirma-2\bin\Debug\L1pirma-2.exe.config
+Z:\Objektinis Programavimas\First_lesson\L1pirma-2\L1pirma-2\bin\Debug\L1pirma-2.exe
+Z:\Objektinis Programavimas\First_lesson\L1pirma-2\L1pirma-2\bin\Debug\L1pirma-2.pdb
+Z:\Objektinis Programavimas\First_lesson\L1pirma-2\L1pirma-2\obj\Debug\L1pirma-2.exe
+Z:\Objektinis Programavimas\First_lesson\L1pirma-2\L1pirma-2\obj\Debug\L1pirma-2.pdb

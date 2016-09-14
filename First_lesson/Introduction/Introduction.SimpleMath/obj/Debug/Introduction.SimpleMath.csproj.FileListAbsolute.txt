@@ -1,0 +1,5 @@
+Z:\Objektinis Programavimas\First_lesson\Introduction\Introduction.SimpleMath\bin\Debug\Introduction.SimpleMath.exe.config
+Z:\Objektinis Programavimas\First_lesson\Introduction\Introduction.SimpleMath\bin\Debug\Introduction.SimpleMath.exe
+Z:\Objektinis Programavimas\First_lesson\Introduction\Introduction.SimpleMath\bin\Debug\Introduction.SimpleMath.pdb
+Z:\Objektinis Programavimas\First_lesson\Introduction\Introduction.SimpleMath\obj\Debug\Introduction.SimpleMath.exe
+Z:\Objektinis Programavimas\First_lesson\Introduction\Introduction.SimpleMath\obj\Debug\Introduction.SimpleMath.pdb

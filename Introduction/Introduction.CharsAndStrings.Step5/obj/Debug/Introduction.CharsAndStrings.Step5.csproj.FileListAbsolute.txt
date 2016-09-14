@@ -1,0 +1,5 @@
+Z:\Objektinis Programavimas\Introduction\Introduction.CharsAndStrings.Step5\bin\Debug\Introduction.CharsAndStrings.Step5.exe.config
+Z:\Objektinis Programavimas\Introduction\Introduction.CharsAndStrings.Step5\bin\Debug\Introduction.CharsAndStrings.Step5.exe
+Z:\Objektinis Programavimas\Introduction\Introduction.CharsAndStrings.Step5\bin\Debug\Introduction.CharsAndStrings.Step5.pdb
+Z:\Objektinis Programavimas\Introduction\Introduction.CharsAndStrings.Step5\obj\Debug\Introduction.CharsAndStrings.Step5.exe
+Z:\Objektinis Programavimas\Introduction\Introduction.CharsAndStrings.Step5\obj\Debug\Introduction.CharsAndStrings.Step5.pdb

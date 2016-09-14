@@ -1,0 +1,5 @@
+Z:\Objektinis Programavimas\First_lesson\Introduction\Introduction.Loop.Step3\bin\Debug\Introduction.Loop.Step3.exe.config
+Z:\Objektinis Programavimas\First_lesson\Introduction\Introduction.Loop.Step3\bin\Debug\Introduction.Loop.Step3.exe
+Z:\Objektinis Programavimas\First_lesson\Introduction\Introduction.Loop.Step3\bin\Debug\Introduction.Loop.Step3.pdb
+Z:\Objektinis Programavimas\First_lesson\Introduction\Introduction.Loop.Step3\obj\Debug\Introduction.Loop.Step3.exe
+Z:\Objektinis Programavimas\First_lesson\Introduction\Introduction.Loop.Step3\obj\Debug\Introduction.Loop.Step3.pdb

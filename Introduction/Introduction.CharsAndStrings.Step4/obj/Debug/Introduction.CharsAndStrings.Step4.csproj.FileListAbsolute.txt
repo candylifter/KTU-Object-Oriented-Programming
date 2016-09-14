@@ -3,3 +3,9 @@ C:\dev\KTU\Introduction\Introduction.CharsAndStrings.Step4\bin\Debug\Introductio
 C:\dev\KTU\Introduction\Introduction.CharsAndStrings.Step4\bin\Debug\Introduction.CharsAndStrings.Step4.pdb
 C:\dev\KTU\Introduction\Introduction.CharsAndStrings.Step4\obj\Debug\Introduction.CharsAndStrings.Step4.exe
 C:\dev\KTU\Introduction\Introduction.CharsAndStrings.Step4\obj\Debug\Introduction.CharsAndStrings.Step4.pdb
+Z:\Objektinis Programavimas\Introduction\Introduction.CharsAndStrings.Step4\bin\Debug\Introduction.CharsAndStrings.Step4.exe.config
+Z:\Objektinis Programavimas\Introduction\Introduction.CharsAndStrings.Step4\obj\Debug\Introduction.CharsAndStrings.Step4.exe
+Z:\Objektinis Programavimas\Introduction\Introduction.CharsAndStrings.Step4\obj\Debug\Introduction.CharsAndStrings.Step4.pdb
+Z:\Objektinis Programavimas\Introduction\Introduction.CharsAndStrings.Step4\bin\Debug\Introduction.CharsAndStrings.Step4.exe
+Z:\Objektinis Programavimas\Introduction\Introduction.CharsAndStrings.Step4\bin\Debug\Introduction.CharsAndStrings.Step4.pdb
+Z:\Objektinis Programavimas\Introduction\Introduction.CharsAndStrings.Step4\obj\Debug\Introduction.CharsAndStrings.Step4.csprojResolveAssemblyReference.cache

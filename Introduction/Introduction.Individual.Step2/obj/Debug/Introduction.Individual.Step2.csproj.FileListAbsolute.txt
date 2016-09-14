@@ -1,0 +1,5 @@
+Z:\Objektinis Programavimas\Introduction\Introduction.Individual.Step2\bin\Debug\Introduction.Individual.Step2.exe.config
+Z:\Objektinis Programavimas\Introduction\Introduction.Individual.Step2\bin\Debug\Introduction.Individual.Step2.exe
+Z:\Objektinis Programavimas\Introduction\Introduction.Individual.Step2\bin\Debug\Introduction.Individual.Step2.pdb
+Z:\Objektinis Programavimas\Introduction\Introduction.Individual.Step2\obj\Debug\Introduction.Individual.Step2.exe
+Z:\Objektinis Programavimas\Introduction\Introduction.Individual.Step2\obj\Debug\Introduction.Individual.Step2.pdb

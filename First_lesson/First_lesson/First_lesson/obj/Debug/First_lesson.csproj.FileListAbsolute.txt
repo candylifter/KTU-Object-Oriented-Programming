@@ -1,0 +1,6 @@
+Z:\Objektinis Programavimas\First_lesson\First_lesson\First_lesson\bin\Debug\First_lesson.exe.config
+Z:\Objektinis Programavimas\First_lesson\First_lesson\First_lesson\bin\Debug\First_lesson.exe
+Z:\Objektinis Programavimas\First_lesson\First_lesson\First_lesson\bin\Debug\First_lesson.pdb
+Z:\Objektinis Programavimas\First_lesson\First_lesson\First_lesson\obj\Debug\First_lesson.csprojResolveAssemblyReference.cache
+Z:\Objektinis Programavimas\First_lesson\First_lesson\First_lesson\obj\Debug\First_lesson.exe
+Z:\Objektinis Programavimas\First_lesson\First_lesson\First_lesson\obj\Debug\First_lesson.pdb
