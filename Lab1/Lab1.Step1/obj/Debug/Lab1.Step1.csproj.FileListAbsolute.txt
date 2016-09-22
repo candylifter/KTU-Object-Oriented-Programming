@@ -4,3 +4,9 @@ C:\Users\markad1\Documents\Visual Studio 2012\Projects\Lab1\Lab1.Step1\bin\Debug
 C:\Users\markad1\Documents\Visual Studio 2012\Projects\Lab1\Lab1.Step1\obj\Debug\Lab1.Step1.csprojResolveAssemblyReference.cache
 C:\Users\markad1\Documents\Visual Studio 2012\Projects\Lab1\Lab1.Step1\obj\Debug\Lab1.Step1.exe
 C:\Users\markad1\Documents\Visual Studio 2012\Projects\Lab1\Lab1.Step1\obj\Debug\Lab1.Step1.pdb
+C:\dev\KTU-Object-Oriented-Programming\Lab1\Lab1.Step1\bin\Debug\Lab1.Step1.exe.config
+C:\dev\KTU-Object-Oriented-Programming\Lab1\Lab1.Step1\obj\Debug\Lab1.Step1.exe
+C:\dev\KTU-Object-Oriented-Programming\Lab1\Lab1.Step1\obj\Debug\Lab1.Step1.pdb
+C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Step1\bin\Debug\Lab1.Step1.exe.config
+C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Step1\obj\Debug\Lab1.Step1.exe
+C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Step1\obj\Debug\Lab1.Step1.pdb

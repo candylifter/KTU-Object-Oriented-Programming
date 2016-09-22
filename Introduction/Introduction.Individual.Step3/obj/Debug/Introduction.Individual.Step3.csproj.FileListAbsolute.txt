@@ -4,3 +4,6 @@ C:\dev\KTU\Introduction\Introduction.Individual.Step3\bin\Debug\Introduction.Ind
 C:\dev\KTU\Introduction\Introduction.Individual.Step3\obj\Debug\Introduction.Individual.Step3.csprojResolveAssemblyReference.cache
 C:\dev\KTU\Introduction\Introduction.Individual.Step3\obj\Debug\Introduction.Individual.Step3.exe
 C:\dev\KTU\Introduction\Introduction.Individual.Step3\obj\Debug\Introduction.Individual.Step3.pdb
+C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Introduction\Introduction.Individual.Step3\bin\Debug\Introduction.Individual.Step3.exe.config
+C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Introduction\Introduction.Individual.Step3\obj\Debug\Introduction.Individual.Step3.exe
+C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Introduction\Introduction.Individual.Step3\obj\Debug\Introduction.Individual.Step3.pdb

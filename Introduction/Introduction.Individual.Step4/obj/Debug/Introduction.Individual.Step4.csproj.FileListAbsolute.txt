@@ -3,3 +3,6 @@ Z:\Objektinis Programavimas\Introduction\Introduction.Individual.Step4\bin\Debug
 Z:\Objektinis Programavimas\Introduction\Introduction.Individual.Step4\bin\Debug\Introduction.Individual.Step4.pdb
 Z:\Objektinis Programavimas\Introduction\Introduction.Individual.Step4\obj\Debug\Introduction.Individual.Step4.exe
 Z:\Objektinis Programavimas\Introduction\Introduction.Individual.Step4\obj\Debug\Introduction.Individual.Step4.pdb
+C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Introduction\Introduction.Individual.Step4\bin\Debug\Introduction.Individual.Step4.exe.config
+C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Introduction\Introduction.Individual.Step4\obj\Debug\Introduction.Individual.Step4.exe
+C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Introduction\Introduction.Individual.Step4\obj\Debug\Introduction.Individual.Step4.pdb

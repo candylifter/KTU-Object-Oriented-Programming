@@ -1,0 +1,15 @@
+C:\dev\KTU-Object-Oriented-Programming\Lab1\Lab1.Individual.Step1\bin\Debug\Lab1.Individual.Step1.exe.config
+C:\dev\KTU-Object-Oriented-Programming\Lab1\Lab1.Individual.Step1\bin\Debug\Lab1.Individual.Step1.exe
+C:\dev\KTU-Object-Oriented-Programming\Lab1\Lab1.Individual.Step1\bin\Debug\Lab1.Individual.Step1.pdb
+C:\dev\KTU-Object-Oriented-Programming\Lab1\Lab1.Individual.Step1\obj\Debug\Lab1.Individual.Step1.csprojResolveAssemblyReference.cache
+C:\dev\KTU-Object-Oriented-Programming\Lab1\Lab1.Individual.Step1\obj\Debug\Lab1.Individual.Step1.exe
+C:\dev\KTU-Object-Oriented-Programming\Lab1\Lab1.Individual.Step1\obj\Debug\Lab1.Individual.Step1.pdb
+C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Individual.Step1\bin\Debug\Lab1.Individual.Step1.exe.config
+C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Individual.Step1\obj\Debug\Lab1.Individual.Step1.exe
+C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Individual.Step1\obj\Debug\Lab1.Individual.Step1.pdb
+C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Individual.Step1\bin\Debug\Lab1.Individual.Step1.exe
+C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Individual.Step1\bin\Debug\Lab1.Individual.Step1.pdb
+C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Individual.Step1\obj\Debug\Lab1.Individual.Step1.csprojResolveAssemblyReference.cache
+Z:\Informatika 2016 rudens semestras\Objektinis Programavimas\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Individual.Step1\bin\Debug\Lab1.Individual.Step1.exe.config
+Z:\Informatika 2016 rudens semestras\Objektinis Programavimas\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Individual.Step1\obj\Debug\Lab1.Individual.Step1.exe
+Z:\Informatika 2016 rudens semestras\Objektinis Programavimas\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Individual.Step1\obj\Debug\Lab1.Individual.Step1.pdb
