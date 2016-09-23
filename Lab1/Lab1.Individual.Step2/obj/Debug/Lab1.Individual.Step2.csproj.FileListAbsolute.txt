@@ -4,3 +4,9 @@ Z:\Informatika 2016 rudens semestras\Objektinis Programavimas\KTU-Object-Oriente
 Z:\Informatika 2016 rudens semestras\Objektinis Programavimas\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Individual.Step2\obj\Debug\Lab1.Individual.Step2.csprojResolveAssemblyReference.cache
 Z:\Informatika 2016 rudens semestras\Objektinis Programavimas\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Individual.Step2\obj\Debug\Lab1.Individual.Step2.exe
 Z:\Informatika 2016 rudens semestras\Objektinis Programavimas\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Individual.Step2\obj\Debug\Lab1.Individual.Step2.pdb
+C:\dev\KTU\Lab1\Lab1.Individual.Step2\bin\Debug\Lab1.Individual.Step2.exe.config
+C:\dev\KTU\Lab1\Lab1.Individual.Step2\obj\Debug\Lab1.Individual.Step2.exe
+C:\dev\KTU\Lab1\Lab1.Individual.Step2\obj\Debug\Lab1.Individual.Step2.pdb
+C:\dev\KTU\Lab1\Lab1.Individual.Step2\bin\Debug\Lab1.Individual.Step2.exe
+C:\dev\KTU\Lab1\Lab1.Individual.Step2\bin\Debug\Lab1.Individual.Step2.pdb
+C:\dev\KTU\Lab1\Lab1.Individual.Step2\obj\Debug\Lab1.Individual.Step2.csprojResolveAssemblyReference.cache

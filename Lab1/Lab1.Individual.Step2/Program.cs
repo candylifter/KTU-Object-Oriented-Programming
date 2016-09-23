@@ -25,21 +25,61 @@ namespace Lab1.Individual.Step2
 
         private static FridgeHandlers _handlers; 
 
+        static List<Fridge> CreateBoschFridges()
+        {
+            _handlers = new FridgeHandlers();
+
+            var fridges = new List<Fridge>();
+
+            Random rnd = new Random();
+
+            for (int i = 0; i < 20; i++)
+            {
+
+                var fridge = new Fridge()
+                {
+                    Manufacturer = "Bosch",
+                    Model = "Freezer " + rnd.Next(100, 1000).ToString(),
+                    Capacity = rnd.Next(30, 45),
+                    Color = "Baltas",
+                    EnergyClass = _handlers.GenerateRandomEnergyClass(rnd),
+                    Width = rnd.Next(50, 60),
+                    HasFreezer = true,
+                    InstallationType = "Laisvai pastatomas",
+                    Price = rnd.Next(500, 3000)
+                };
+
+                fridges.Add(fridge);
+            }
+
+            return fridges;
+        }
+
+
         static void Main(string[] args)
         {
             _handlers = new FridgeHandlers();
 
             var fridges = _handlers.GetFridgesFromFile("Fridges.csv");
 
-            _handlers.PrintFridges(fridges);
-
             var capacities = _handlers.GetCapacities(fridges);
 
-            Console.WriteLine("Talpos:\n");
-            foreach (var capacity in capacities)
-            {
-                Console.Write("{0}, ", capacity);
-            }
+            Console.WriteLine("\nTalpos:");
+            _handlers.PrintArray(capacities);
+
+            var cheapest = _handlers.GetCheapestPlacableWithFreezerFridge(fridges);
+
+            Console.WriteLine("\nPigiausias pastatomas šaldytuvas su šaldikliu:");
+            _handlers.PrintCheapest(cheapest);
+
+            var boschFridges = CreateBoschFridges();
+
+            var filteredBoschFridges = _handlers.FilteryByWidth(boschFridges, 52, 56);
+
+            _handlers.PrintToFile(filteredBoschFridges, "Tilps.csv");
+
+
+            _handlers.PrintToFile(boschFridges, "Bosch.csv");
 
             Console.ReadKey();
             

@@ -17,6 +17,7 @@ namespace Lab1.Individual.Step2
         public string Color { get; set; }
         public bool HasFreezer { get; set; }
         public double Price { get; set; }
+        public int Width { get; set; }
 
         public Fridge() { }
 

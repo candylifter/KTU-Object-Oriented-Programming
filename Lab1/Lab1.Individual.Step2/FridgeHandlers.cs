@@ -49,11 +49,81 @@ namespace Lab1.Individual.Step2
             return fridges;
         }
 
+        public void PrintToFile(List<Fridge> fridges, string path)
+        {
+            using (StreamWriter writer = new StreamWriter(path))
+            {
+                writer.WriteLine("Gamintojas;Modelis;Talpa;Energijos klase;Montavimo tipas;Spalva;Ar turi saldikli?;Kaina;Plotis");
+
+                foreach (var fridge in fridges)
+                {
+                    writer.WriteLine("{0};{1};{2};{3};{4};{5};{6};{7};{8}",
+                        fridge.Manufacturer,
+                        fridge.Model,
+                        fridge.Capacity,
+                        fridge.EnergyClass,
+                        fridge.InstallationType,
+                        fridge.Color,
+                        fridge.HasFreezer,
+                        fridge.Price,
+                        fridge.Width
+                    );
+                }
+            }
+        }
+
         public double[] GetCapacities(List<Fridge> fridges)
         {
             var capacities = fridges.Select(x => x.Capacity).Distinct().ToArray();
 
             return capacities;
+        }
+
+        public Fridge GetCheapestPlacableWithFreezerFridge(List<Fridge> fridges)
+        {
+            var fridge = fridges.Where(x => x.InstallationType == "Laisvai pastatomas" && x.HasFreezer).OrderBy(x => x.Price).First();
+
+            return fridge;
+        }
+
+        public void PrintCheapest(Fridge fridge)
+        {
+            Console.WriteLine("{0} {1} {2} {3}", fridge.Manufacturer, fridge.Model, fridge.Capacity, fridge.Price);
+        }
+
+        public List<Fridge> FilteryByWidth(List<Fridge> fridges, int min, int max)
+        {
+            var filteredFridges = fridges.Where(x => x.Width >= min && x.Width <= max).ToList();
+
+            return filteredFridges;
+        }
+
+        public void PrintArray(double[] array)
+        {
+            foreach(var item in array)
+            {
+                Console.Write("{0} ", item);
+            }
+
+            Console.WriteLine();
+        }
+
+        public string GenerateRandomEnergyClass(Random rnd)
+        {
+            int num = rnd.Next(0, 5);
+            char energyClassLetter = (char)('a' + num);
+
+            string energyClass = energyClassLetter.ToString();
+
+            int count = rnd.Next(0, 3);
+
+            for (int i = 0; i < count; i++)
+            {
+                energyClass += "+";
+            }
+
+            return energyClass;
+            
         }
 
         public void PrintFridges(List<Fridge> fridges) 
