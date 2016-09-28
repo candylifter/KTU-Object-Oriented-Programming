@@ -1,11 +1,3 @@
 Gamintojas;Modelis;Talpa;Energijos klase;Montavimo tipas;Spalva;Ar turi saldikli?;Kaina;Plotis
-Bosch;Freezer 286;44;d++;Laisvai pastatomas;Baltas;True;2074;56
-Bosch;Freezer 204;34;a++;Laisvai pastatomas;Baltas;True;2982;56
-Bosch;Freezer 132;31;a+;Laisvai pastatomas;Baltas;True;2235;53
-Bosch;Freezer 698;44;b;Laisvai pastatomas;Baltas;True;1604;55
-Bosch;Freezer 362;44;e++;Laisvai pastatomas;Baltas;True;2162;53
-Bosch;Freezer 250;36;a+;Laisvai pastatomas;Baltas;True;1496;56
-Bosch;Freezer 140;42;d+;Laisvai pastatomas;Baltas;True;2327;53
-Bosch;Freezer 260;30;d+;Laisvai pastatomas;Baltas;True;2650;54
-Bosch;Freezer 642;33;b;Laisvai pastatomas;Baltas;True;2172;54
-Bosch;Freezer 542;41;b+;Laisvai pastatomas;Baltas;True;2429;53
+Phillips;Arctica;54;B;Tvirtinamas prie sienos;Melynas;False;100;54
+LG;Icybox 2;42;F;Tvirtinamas prie sienos;Melynas;True;510;55

@@ -10,3 +10,9 @@ C:\dev\KTU\Lab1\Lab1.Individual.Step2\obj\Debug\Lab1.Individual.Step2.pdb
 C:\dev\KTU\Lab1\Lab1.Individual.Step2\bin\Debug\Lab1.Individual.Step2.exe
 C:\dev\KTU\Lab1\Lab1.Individual.Step2\bin\Debug\Lab1.Individual.Step2.pdb
 C:\dev\KTU\Lab1\Lab1.Individual.Step2\obj\Debug\Lab1.Individual.Step2.csprojResolveAssemblyReference.cache
+C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Individual.Step2\bin\Debug\Lab1.Individual.Step2.exe.config
+C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Individual.Step2\obj\Debug\Lab1.Individual.Step2.exe
+C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Individual.Step2\obj\Debug\Lab1.Individual.Step2.pdb
+C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Individual.Step2\bin\Debug\Lab1.Individual.Step2.exe
+C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Individual.Step2\bin\Debug\Lab1.Individual.Step2.pdb
+C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Individual.Step2\obj\Debug\Lab1.Individual.Step2.csprojResolveAssemblyReference.cache

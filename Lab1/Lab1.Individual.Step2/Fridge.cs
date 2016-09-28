@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Lab1.Individual.Step2
+﻿namespace Lab1.Individual.Step2
 {
-    // gamintojas, modelis, talpa, energijos klasė, montavimo tipas, spalva, požymis „turi šaldiklį“, kaina
+    /// <summary>
+    /// Fridge object
+    /// </summary>
     class Fridge
     {
         public string Manufacturer { get; set; }
@@ -17,7 +13,7 @@ namespace Lab1.Individual.Step2
         public string Color { get; set; }
         public bool HasFreezer { get; set; }
         public double Price { get; set; }
-        public int Width { get; set; }
+        public double Width { get; set; }
 
         public Fridge() { }
 

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lab1.Individual.Step2
 {
@@ -25,37 +21,10 @@ namespace Lab1.Individual.Step2
 
         private static FridgeHandlers _handlers; 
 
-        static List<Fridge> CreateBoschFridges()
-        {
-            _handlers = new FridgeHandlers();
-
-            var fridges = new List<Fridge>();
-
-            Random rnd = new Random();
-
-            for (int i = 0; i < 20; i++)
-            {
-
-                var fridge = new Fridge()
-                {
-                    Manufacturer = "Bosch",
-                    Model = "Freezer " + rnd.Next(100, 1000).ToString(),
-                    Capacity = rnd.Next(30, 45),
-                    Color = "Baltas",
-                    EnergyClass = _handlers.GenerateRandomEnergyClass(rnd),
-                    Width = rnd.Next(50, 60),
-                    HasFreezer = true,
-                    InstallationType = "Laisvai pastatomas",
-                    Price = rnd.Next(500, 3000)
-                };
-
-                fridges.Add(fridge);
-            }
-
-            return fridges;
-        }
-
-
+        /// <summary>
+        /// Entry point
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             _handlers = new FridgeHandlers();
@@ -64,22 +33,25 @@ namespace Lab1.Individual.Step2
 
             var capacities = _handlers.GetCapacities(fridges);
 
-            Console.WriteLine("\nTalpos:");
+            Console.WriteLine("Talpos:");
             _handlers.PrintArray(capacities);
 
             var cheapest = _handlers.GetCheapestPlacableWithFreezerFridge(fridges);
 
             Console.WriteLine("\nPigiausias pastatomas šaldytuvas su šaldikliu:");
-            _handlers.PrintCheapest(cheapest);
 
-            var boschFridges = CreateBoschFridges();
+            if (cheapest != null)
+            {
+                _handlers.PrintCheapest(cheapest);
+            }
+            else
+            {
+                Console.WriteLine("Nėra tokių šaldytuvų");
+            }
 
-            var filteredBoschFridges = _handlers.FilteryByWidth(boschFridges, 52, 56);
+            var filteredFridges = _handlers.FilterByWidth(fridges, 52, 56);
 
-            _handlers.PrintToFile(filteredBoschFridges, "Tilps.csv");
-
-
-            _handlers.PrintToFile(boschFridges, "Bosch.csv");
+            _handlers.PrintToFile(filteredFridges, "Tilps.csv");
 
             Console.ReadKey();
             
