@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 
@@ -94,12 +95,16 @@ namespace Lab1.Individual.Step2
         public double[] GetCapacities(List<Fridge> fridges)
         {
             var fridgesArray = fridges.ToArray();
-            double[] capacities = new double[fridgesArray.Length];
+            ArrayList capacitiesList = new ArrayList();
 
-            for (int i = 0; i < fridges.Count; i++) 
-            {
-                capacities[i] = fridgesArray[i].Capacity;
+            foreach (var fridge in fridges) {
+                if (!capacitiesList.Contains(fridge.Capacity))
+                {
+                    capacitiesList.Add(fridge.Capacity);
+                }
             }
+
+            double[] capacities = (double[])capacitiesList.ToArray(typeof(double));
 
             return capacities;
         }

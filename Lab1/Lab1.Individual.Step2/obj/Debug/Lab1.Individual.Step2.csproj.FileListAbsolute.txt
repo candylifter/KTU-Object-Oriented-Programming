@@ -16,3 +16,9 @@ C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Indi
 C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Individual.Step2\bin\Debug\Lab1.Individual.Step2.exe
 C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Individual.Step2\bin\Debug\Lab1.Individual.Step2.pdb
 C:\Users\markad1\Downloads\KTU-Object-Oriented-Programming-master\Lab1\Lab1.Individual.Step2\obj\Debug\Lab1.Individual.Step2.csprojResolveAssemblyReference.cache
+C:\dev\KTU-Object-Oriented-Programming\Lab1\Lab1.Individual.Step2\bin\Debug\Lab1.Individual.Step2.exe.config
+C:\dev\KTU-Object-Oriented-Programming\Lab1\Lab1.Individual.Step2\obj\Debug\Lab1.Individual.Step2.exe
+C:\dev\KTU-Object-Oriented-Programming\Lab1\Lab1.Individual.Step2\obj\Debug\Lab1.Individual.Step2.pdb
+C:\dev\KTU-Object-Oriented-Programming\Lab1\Lab1.Individual.Step2\bin\Debug\Lab1.Individual.Step2.exe
+C:\dev\KTU-Object-Oriented-Programming\Lab1\Lab1.Individual.Step2\bin\Debug\Lab1.Individual.Step2.pdb
+C:\dev\KTU-Object-Oriented-Programming\Lab1\Lab1.Individual.Step2\obj\Debug\Lab1.Individual.Step2.csprojResolveAssemblyReference.cache
