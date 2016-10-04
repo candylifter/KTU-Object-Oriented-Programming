@@ -14,11 +14,11 @@ namespace Lab1.Individual.Step2
         /// <returns>
         ///     This method return a List
         /// </returns>
-        public List<Fridge> GetFridgesFromFile(string path) 
+        public List<Fridge> GetFridgesFromFile(string path)
         {
             var fridges = new List<Fridge>();
 
-            using (var reader = new StreamReader(path)) 
+            using (var reader = new StreamReader(path))
             {
                 string line = null;
 
@@ -64,23 +64,33 @@ namespace Lab1.Individual.Step2
         /// <param name="path"></param>
         public void PrintToFile(List<Fridge> fridges, string path)
         {
+
+
             using (StreamWriter writer = new StreamWriter(path))
             {
-                writer.WriteLine("Gamintojas;Modelis;Talpa;Energijos klase;Montavimo tipas;Spalva;Ar turi saldikli?;Kaina;Plotis");
-
-                foreach (var fridge in fridges)
+                if (fridges.Count != 0)
                 {
-                    writer.WriteLine("{0};{1};{2};{3};{4};{5};{6};{7};{8}",
-                        fridge.Manufacturer,
-                        fridge.Model,
-                        fridge.Capacity,
-                        fridge.EnergyClass,
-                        fridge.InstallationType,
-                        fridge.Color,
-                        fridge.HasFreezer,
-                        fridge.Price,
-                        fridge.Width
-                    );
+                    writer.WriteLine("Gamintojas;Modelis;Talpa;Energijos klase;Montavimo tipas;Spalva;Ar turi saldikli?;Kaina;Plotis");
+
+                    foreach (var fridge in fridges)
+                    {
+                        writer.WriteLine("{0};{1};{2};{3};{4};{5};{6};{7};{8}",
+                            fridge.Manufacturer,
+                            fridge.Model,
+                            fridge.Capacity,
+                            fridge.EnergyClass,
+                            fridge.InstallationType,
+                            fridge.Color,
+                            fridge.HasFreezer,
+                            fridge.Price,
+                            fridge.Width
+                        );
+                    }
+
+                }
+                else
+                {
+                    writer.WriteLine("Nėra tokių šaldytuvų");
                 }
             }
         }
@@ -97,7 +107,8 @@ namespace Lab1.Individual.Step2
             var fridgesArray = fridges.ToArray();
             ArrayList capacitiesList = new ArrayList();
 
-            foreach (var fridge in fridges) {
+            foreach (var fridge in fridges)
+            {
                 if (!capacitiesList.Contains(fridge.Capacity))
                 {
                     capacitiesList.Add(fridge.Capacity);
@@ -119,15 +130,27 @@ namespace Lab1.Individual.Step2
         public Fridge GetCheapestPlacableWithFreezerFridge(List<Fridge> fridges)
         {
             var fridgesArray = fridges.ToArray();
-            Fridge cheapestFridge = fridgesArray[0];
+            Fridge cheapestFridge = new Fridge();
 
-            for (int i = 0; i < fridgesArray.Length; i++) 
+            for (int i = 0; i < fridgesArray.Length; i++)
+            {
+                if (fridgesArray[i].HasFreezer && fridgesArray[i].InstallationType == "Laisvai pastatomas")
+                {
+                    cheapestFridge = fridgesArray[i];
+                }
+            }
+
+            if (cheapestFridge.HasFreezer == false)
+            {
+                return null;
+            }
+
+            for (int i = 0; i < fridgesArray.Length; i++)
             {
                 if (fridgesArray[i].HasFreezer && fridgesArray[i].InstallationType == "Laisvai pastatomas" && fridgesArray[i].Price < cheapestFridge.Price)
                 {
                     cheapestFridge = fridgesArray[i];
-                    // TODO: add filter for hasFreezer and InstallationType
-                }            
+                }
             }
 
             return cheapestFridge;
@@ -178,7 +201,7 @@ namespace Lab1.Individual.Step2
         /// <param name="array"></param>
         public void PrintArray(double[] array)
         {
-            foreach(var item in array)
+            foreach (var item in array)
             {
                 Console.Write("{0}l ", item);
             }
@@ -190,21 +213,21 @@ namespace Lab1.Individual.Step2
         /// Prints List of fridges to console
         /// </summary>
         /// <param name="fridges"></param>
-        public void PrintFridges(List<Fridge> fridges) 
+        public void PrintFridges(List<Fridge> fridges)
         {
 
             Console.WriteLine("Saldytuvai:");
-            foreach (var fridge in fridges) 
+            foreach (var fridge in fridges)
             {
                 Console.WriteLine(
                     @"Gamintojas: {0}, Modelis: {1}, Talpa: {2}l, Energijos klase: {3}, Montavimo tipas: {4}, Spalva: {5}, Ar turi saldikli? {6}, Kaina: {7}Eur",
-                    fridge.Manufacturer, 
-                    fridge.Model, 
-                    fridge.Capacity, 
-                    fridge.EnergyClass, 
-                    fridge.InstallationType, 
+                    fridge.Manufacturer,
+                    fridge.Model,
+                    fridge.Capacity,
+                    fridge.EnergyClass,
+                    fridge.InstallationType,
                     fridge.Color,
-                    fridge.HasFreezer ? "Taip" : "Ne", 
+                    fridge.HasFreezer ? "Taip" : "Ne",
                     fridge.Price,
                     fridge.Width
                 );
