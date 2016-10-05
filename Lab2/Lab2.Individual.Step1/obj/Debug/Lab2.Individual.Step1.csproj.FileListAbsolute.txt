@@ -1,0 +1,6 @@
+C:\dev\KTU-Object-Oriented-Programming\Lab2\Lab2.Individual.Step1\bin\Debug\Lab2.Individual.Step1.exe.config
+C:\dev\KTU-Object-Oriented-Programming\Lab2\Lab2.Individual.Step1\bin\Debug\Lab2.Individual.Step1.exe
+C:\dev\KTU-Object-Oriented-Programming\Lab2\Lab2.Individual.Step1\bin\Debug\Lab2.Individual.Step1.pdb
+C:\dev\KTU-Object-Oriented-Programming\Lab2\Lab2.Individual.Step1\obj\Debug\Lab2.Individual.Step1.csprojResolveAssemblyReference.cache
+C:\dev\KTU-Object-Oriented-Programming\Lab2\Lab2.Individual.Step1\obj\Debug\Lab2.Individual.Step1.exe
+C:\dev\KTU-Object-Oriented-Programming\Lab2\Lab2.Individual.Step1\obj\Debug\Lab2.Individual.Step1.pdb
