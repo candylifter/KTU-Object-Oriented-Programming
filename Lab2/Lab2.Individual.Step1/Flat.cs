@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab2.Individual.Step1.Models
+namespace Lab2.Individual.Step1
 {
     public class Flat
     {
@@ -13,7 +13,5 @@ namespace Lab2.Individual.Step1.Models
         public int RoomCount { get; set; }
         public double Price { get; set; }
         public string Phone { get; set; }
-        public int Floor { get; set; }
-        public int Stairway { get; set; }
     }
 }

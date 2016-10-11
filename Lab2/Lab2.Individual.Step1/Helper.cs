@@ -10,7 +10,7 @@ namespace Lab2.Individual.Step1
 {
     public class Helper
     {
-        public Flat[] GetDataFromFile(string path)
+        public Flat[] GetFlatsFromFile(string path)
         {
             int lineCount = GetLineCount(path);
             var flats = new Flat[lineCount];

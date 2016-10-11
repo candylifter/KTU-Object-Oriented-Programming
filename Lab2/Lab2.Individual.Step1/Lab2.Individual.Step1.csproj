@@ -44,12 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Flat.cs" />
-    <Compile Include="Models\Floor.cs" />
     <Compile Include="Helper.cs" />
     <Compile Include="Models\House.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Models\Stairway.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

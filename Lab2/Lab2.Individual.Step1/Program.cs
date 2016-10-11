@@ -22,10 +22,31 @@ namespace Lab2.Individual.Step1
 
         static void Main(string[] args)
         {
-            var flats = _helper.GetDataFromFile("../../Flats-100.csv");
+            var flats = _helper.GetFlatsFromFile("../../Flats-540.csv");
 
-            var house = new House();
+            var house = new House(flats);
 
+            Console.WriteLine("How many rooms should your flat have?");
+            int roomCount = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("On which floor should your flat be? (Minimum)");
+            int minFloor = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("On which floor should your flat be? (Maximum)");
+            int maxFloor = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Maximum price you are willing to pay for your flat:");
+            double maxPrice = double.Parse(Console.ReadLine());
+
+
+            var flatsByRoomCount = house.FilterByRoomCount(roomCount);
+            var houseByRoomCount = new House(flatsByRoomCount);
+
+            var flatsByRoomCountAndFloor = houseByRoomCount.FilterByFloorInterval(minFloor, maxFloor);
+            var houseByRoomCountAndFloor = new House(flatsByRoomCountAndFloor);
+
+            var flatsByFloorAndRoomCountAndPrice = houseByRoomCountAndFloor.FilterByPrice(maxPrice);
+            var houseByRoomCountAndFloorAndPrice = new House(flatsByFloorAndRoomCountAndPrice);
 
             Console.ReadKey();
         }
